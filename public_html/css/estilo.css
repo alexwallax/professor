@@ -4,9 +4,7 @@
     padding: 0;
 }
 body {
-    
     font-size: 16px;
-    width: 1000px;
     font-family: "Trebuchet MS", Helvetica, sans-serif;
     background: #f3f3f3;
     margin: 10px;
@@ -40,7 +38,13 @@ a:hover{
 }
 #menu {
     float: right;
-    padding: 10px;
+    padding: 13px;  
+}
+
+#container {
+    width: 1000px;
+    margin: 0 auto;
+    box-shadow: 10px 15px 15px black, -10px -10px 15px red;
 }
 
 #corpo {
